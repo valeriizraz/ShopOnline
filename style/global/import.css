@@ -1,0 +1,8 @@
+@import "var.css";
+@import "normalize.css";
+@import "global.css";
+@import "fonts.css";
+@import "../site/site.css";
+@import "../header/header.css";
+@import "../baner/baner.css";
+@import "../galery/galery.css";

@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+  position: relative;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+ul, 
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, 
+h2, 
+h3, 
+p,
+figure,
+fieldset {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+svg {
+  max-width: 100%;
+  height: 100%;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);/* IE6, IE7 */
+  clip: rect(1px 1px 1px 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+body {
+  min-width: 320px;
+
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+
+  color: #fff;
+}
+
+.container {
+  max-width: 1920px;
+  padding: 0 75px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 34px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
