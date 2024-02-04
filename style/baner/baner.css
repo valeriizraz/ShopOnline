@@ -28,8 +28,37 @@
   font-size: 70px;  
 }
 
-.baner__action-subtitle {
+.baner__timer-title {
+  text-align: center;
+  margin-bottom: 10px;
   font-size: 16px;
+}
+
+.baner__timer-container {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.baner__timer-item {
+
+}
+
+.is-visible {
+  display: none;
+}
+
+.baner__timer-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.baner__count {
+  margin-right: 6px;
+  font-size: 60px;
+}
+
+.baner__units {
+  font-size: 32px;
 }
 
 .baner__action-time {
